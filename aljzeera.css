@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #111;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  color: orange;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #222;
+}
+
+.auth button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-up {
+  background: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.trending {
+  background: #f8f8f8;
+  padding: 10px 2rem;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.content {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.main-article {
+  flex: 2;
+}
+
+.main-article img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.main-article h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.live {
+  color: red;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.updates {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.side-block h3 {
+  color: orange;
+  margin-bottom: 0.5rem;
+}
+
+.side-block ul {
+  list-style: none;
+}
+
+.side-block ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
